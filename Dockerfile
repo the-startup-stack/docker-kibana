@@ -15,7 +15,7 @@ RUN mkdir /etc/kibana
 ADD ./templates/nginx/kibana /etc/nginx/sites-available/kibana
 ADD ./templates/supervisord.conf /etc/supervisor/conf.d/kibana.conf
 
-RUN rm /etc/nginx/sites-enabled/*
+RUN rm /etc/nginx/sites-available/default && rm /etc/nginx/sites-enabled/default
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 EXPOSE 80
