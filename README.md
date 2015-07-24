@@ -1,6 +1,8 @@
 # Kibana (Linked Elastic) docker image
 
-![the-startup-stack](http://aviioblog.s3.amazonaws.com/small-logo-stack.png)
+<a href="http://the-startup-stack.com">
+  ![the-startup-stack](http://aviioblog.s3.amazonaws.com/logo-black.png)
+</a>
 
 the-startup-stack project [Read More](https://github.com/the-startup-stack/docs#what-is-the-startup-stack)
 
